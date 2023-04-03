@@ -1,8 +1,9 @@
-import React, {useState} from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Allenatore from './components/Allenatore';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Allenatore from './components/Allenatore';
 import Calciatore from './components/Calciatore';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App(props) {
 
@@ -34,27 +35,27 @@ function App(props) {
     const squadra = document.getElementById('squadra').value; // imposta la squadra col valore ricevuto dal select box
     let allenatore = []; // crea un array vuoto per i dati dell'allenatore
     let calciatori = []; // crea un array vuoto per i dati dei calciatori
-    fetch(`http://localhost:5000/api/${squadra}`, {
+    fetch(`http://localhost:5000/api/${squadra}`, { // effettua una richiesta GET sull'api indicata per ottenere i dati della squadra
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
       }
-    }).then(res => res.json())
+    }).then(res => res.json()) // converte la risposta in un oggetto JSON
     .then(data => {
       allenatore = data['allenatore']; // imposta i dati dell'allenatore nell'array allenatore
       calciatori = data['calciatori']; // imposta i dati dei calciatori nell'array calciatori
-      const coach = ReactDOM.createRoot(document.getElementById('allenatore'));
+      const coach = ReactDOM.createRoot(document.getElementById('allenatore')); // crea un root nel div con id allenatore
       coach.render(
         <Allenatore foto={allenatore.foto} nome={allenatore.nome} cognome={allenatore.cognome} />
-      );
-      const giocatori = ReactDOM.createRoot(document.getElementById('calciatori'));
+      ); // renderizza i dati nel div root creato
+      const giocatori = ReactDOM.createRoot(document.getElementById('calciatori')); // crea un root nel div con id calciatori
       giocatori.render(
         <div className="box">
           {calciatori.map(calciatore => {
             return <Calciatore foto={calciatore.foto} nome={calciatore.nome} cognome={calciatore.cognome} numero={calciatore.numero} ruolo={calciatore.ruolo} posizione={calciatore.posizione} />
           })}
         </div>
-      )
+      ); // renderizza i dati nel div root creato
     });
   }
 
@@ -65,12 +66,12 @@ function App(props) {
     const squadra = document.getElementById('squadra').value; // imposta la squadra col valore ricevuto dal select box
     let allenatore = []; // crea un array vuoto per i dati dell'allenatore
     let calciatori = []; // crea un array vuoto per i dati dei calciatori
-    fetch(`http://localhost:5000/api/${squadra}`, {
+    fetch(`http://localhost:5000/api/${squadra}`, { // effettua una richiesta GET sull'api indicata per ottenere i dati della squadra
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
       }
-    }).then(res => res.json())
+    }).then(res => res.json()) // converte la risposta in un oggetto JSON
     .then(data => {
       allenatore = data['allenatore']; // imposta i dati dell'allenatore nell'array allenatore
       calciatori = data['calciatori']; // imposta i dati dei calciatori nell'array calciatori
