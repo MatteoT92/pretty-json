@@ -1,0 +1,225 @@
+{
+  "Inter": {
+    "allenatore": 
+      {
+      "nome": "Simone",
+      "cognome": "Inzaghi",
+      "foto": "https://img.a.transfermarkt.technology/portrait/header/21624-1663979865.jpg?lm=1"
+      },
+    "calciatori": [
+      {
+        "nome": "André",
+        "cognome": "Onana",
+        "numero": 24,
+        "ruolo": "portiere",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/234509-1663572607.jpg?lm=1"
+      },
+      {
+        "nome": "Samir",
+        "cognome": "Handanovic",
+        "numero": 1,
+        "ruolo": "portiere",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/28021-1595849038.jpg?lm=1"
+      },
+      {
+        "nome": "Alex",
+        "cognome": "Cordaz",
+        "numero": 21,
+        "ruolo": "portiere",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/16633-1602068628.jpg?lm=1"
+      },
+      {
+        "nome": "Milan",
+        "cognome": "Skriniar",
+        "numero": 37,
+        "ruolo": "difensore",
+        "posizione": "centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/204069-1598256813.jpg?lm=1"
+      },
+      {
+        "nome": "Alessandro",
+        "cognome": "Bastoni",
+        "numero": 95,
+        "ruolo": "difensore",
+        "posizione": "centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/315853-1630304611.jpg?lm=1"
+      },
+      {
+        "nome": "Stefan",
+        "cognome": "de Vrij",
+        "numero": 6,
+        "ruolo": "difensore",
+        "posizione": "centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/111196-1663572651.jpg?lm=1"
+      },
+      {
+        "nome": "Francesco",
+        "cognome": "Acerbi",
+        "numero": 15,
+        "ruolo": "difensore",
+        "posizione": "centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/131075-1663572709.jpg?lm=1"
+      },
+      {
+        "nome": "Danilo",
+        "cognome": "D'Ambrosio",
+        "numero": 33,
+        "ruolo": "difensore",
+        "posizione": "centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/55769-1595925735.jpg?lm=1"
+      },
+      {
+        "nome": "Alessandro",
+        "cognome": "Fontanarosa",
+        "numero": 47,
+        "ruolo": "difensore",
+        "posizione": "centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/616162-1639064621.jpg?lm=1"
+      },
+      {
+        "nome": "Federico",
+        "cognome": "Dimarco",
+        "numero": 47,
+        "ruolo": "difensore",
+        "posizione": "terzino sinistro",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/198116-1661511006.jpg?lm=1"
+      },
+      {
+        "nome": "Henrique Chagas Estevão",
+        "cognome": "Dalbert",
+        "numero": 29,
+        "ruolo": "difensore",
+        "posizione": "terzino sinistro",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/312862-1595939125.jpg?lm=1"
+      },
+      {
+        "nome": "Raoul",
+        "cognome": "Bellanova",
+        "numero": 12,
+        "ruolo": "difensore",
+        "posizione": "terzino destro",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/357992-1656578270.jpg?lm=1"
+      },
+      {
+        "nome": "Matteo",
+        "cognome": "Darmian",
+        "numero": 36,
+        "ruolo": "difensore",
+        "posizione": "terzino destro",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/54906-1604409712.jpg?lm=1"
+      },
+      {
+        "nome": "Mattia",
+        "cognome": "Zanotti",
+        "numero": 46,
+        "ruolo": "difensore",
+        "posizione": "terzino destro",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/582353-1634719008.jpg?lm=1"
+      },
+      {
+        "nome": "Marcelo",
+        "cognome": "Brozovic",
+        "numero": 77,
+        "ruolo": "centrocampista",
+        "posizione": "mediano",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/156617-1661352678.jpg?lm=1"
+      },
+      {
+        "nome": "Kristjan",
+        "cognome": "Asllani",
+        "numero": 14,
+        "ruolo": "centrocampista",
+        "posizione": "mediano",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/543771-1644913890.jpg?lm=1"
+      },
+      {
+        "nome": "Nicolò",
+        "cognome": "Barella",
+        "numero": 23,
+        "ruolo": "centrocampista",
+        "posizione": "centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/255942-1661353022.jpg?lm=1"
+      },
+      {
+        "nome": "Hakan",
+        "cognome": "Calhanoglu",
+        "numero": 20,
+        "ruolo": "centrocampista",
+        "posizione": "centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/126414-1663572427.jpg?lm=1"
+      },
+      {
+        "nome": "Roberto",
+        "cognome": "Gagliardini",
+        "numero": 5,
+        "ruolo": "centrocampista",
+        "posizione": "centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/197471-1641817964.jpg?lm=1"
+      },
+      {
+        "nome": "Denzel",
+        "cognome": "Dumfries",
+        "numero": 2,
+        "ruolo": "centrocampista",
+        "posizione": "destra",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/321528-1663572270.jpg?lm=1"
+      },
+      {
+        "nome": "Robin",
+        "cognome": "Gosens",
+        "numero": 8,
+        "ruolo": "centrocampista",
+        "posizione": "sinistra",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/273132-1616511080.jpg?lm=1"
+      },
+      {
+        "nome": "Henrikh",
+        "cognome": "Mkhitaryan",
+        "numero": 22,
+        "ruolo": "centrocampista",
+        "posizione": "trequartista",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/55735-1664973670.jpg?lm=1"
+      },
+      {
+        "nome": "Valentín",
+        "cognome": "Carboni",
+        "numero": 45,
+        "ruolo": "centrocampista",
+        "posizione": "trequartista",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/787618-1667405332.jpg?lm=1"
+      },
+      {
+        "nome": "Joaquín",
+        "cognome": "Correa",
+        "numero": 11,
+        "ruolo": "attaccante",
+        "posizione": "seconda punta",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/227081-1594716192.jpg?lm=1"
+      },
+      {
+        "nome": "Lautaro",
+        "cognome": "Martínez",
+        "numero": 10,
+        "ruolo": "attaccante",
+        "posizione": "punta centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/406625-1661352429.jpg?lm=1"
+      },
+      {
+        "nome": "Romelu",
+        "cognome": "Lukaku",
+        "numero": 90,
+        "ruolo": "attaccante",
+        "posizione": "punta centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/96341-1661780981.jpg?lm=1"
+      },
+      {
+        "nome": "Edin",
+        "cognome": "Dzeko",
+        "numero": 9,
+        "ruolo": "attaccante",
+        "posizione": "punta centrale",
+        "foto": "https://img.a.transfermarkt.technology/portrait/header/28396-1661268909.jpg?lm=1"
+      }
+    ]
+  }
+}
