@@ -58,6 +58,27 @@ function App(props) {
     });
   }
 
+  const jsonifyResult = (e) => {
+    e.preventDefault();
+    document.getElementById('allenatore').innerHTML = ""; //resetta dati nel div con id allenatore
+    document.getElementById('calciatori').innerHTML = ""; //resetta dati nel div con id calciatori
+    const squadra = document.getElementById('squadra').value; // imposta la squadra col valore ricevuto dal select box
+    let allenatore = []; // crea un array vuoto per i dati dell'allenatore
+    let calciatori = []; // crea un array vuoto per i dati dei calciatori
+    fetch(`http://localhost:5000/api/${squadra}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }).then(res => res.json())
+    .then(data => {
+      allenatore = data['allenatore']; // imposta i dati dell'allenatore nell'array allenatore
+      calciatori = data['calciatori']; // imposta i dati dei calciatori nell'array calciatori
+      document.getElementById('allenatore').innerHTML = JSON.stringify(allenatore, null, 2); // mostra i dati dell'allenatore nel tag con id allenatore
+      document.getElementById('calciatori').innerHTML = JSON.stringify(calciatori, null, 2); // mostra i dati dei calciatori nel tag con id calciatori
+    });
+  }
+
   return (
     <div className="container">
       <div className="row">
@@ -93,7 +114,7 @@ function App(props) {
           <div id="calciatori"></div>
         </div>
         <div className="convert-data-buttons">
-          <button className="btn" onClick={handleSubmit}>
+          <button className="btn" onClick={jsonifyResult}>
             <img src={process.env.PUBLIC_URL + "/denied.avif"} alt="Simbolo vietato agli umani" width="20%" />
             <h5>Formato JSON</h5>
           </button>
