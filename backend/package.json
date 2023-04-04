@@ -2,7 +2,7 @@
   "name": "pretty_json",
   "version": "1.0.0",
   "description": "Progetto scritto in Node.js che prende un JSON e lo rende human-friendly",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
