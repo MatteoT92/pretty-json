@@ -50,3 +50,14 @@ header {
   flex: 0 0 auto;
   margin: 20px;
 }
+
+.pretty-data {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.pretty-data > code {
+  font-size: larger;
+}
